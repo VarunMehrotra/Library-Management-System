@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>Library Management System</display-name>
+
+	<servlet>
+		<servlet-name>AddBook</servlet-name>
+		<servlet-class>AddBook</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddBook</servlet-name>
+		<url-pattern>/AddBook</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TriggerFine</servlet-name>
+		<servlet-class>TriggerFine</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TriggerFine</servlet-name>
+		<url-pattern>/TriggerFine</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Checkout</servlet-name>
+		<servlet-class>Checkout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Checkout</servlet-name>
+		<url-pattern>/Checkout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Pay</servlet-name>
+		<servlet-class>Pay</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pay</servlet-name>
+		<url-pattern>/Pay</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FineManagement</servlet-name>
+		<servlet-class>FineManagement</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FineManagement</servlet-name>
+		<url-pattern>/FineManagement</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>UpdateFines</servlet-name>
+		<servlet-class>UpdateFines</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateFines</servlet-name>
+		<url-pattern>/UpdateFines</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CheckInBook</servlet-name>
+		<servlet-class>CheckInBook</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckInBook</servlet-name>
+		<url-pattern>/CheckInBook</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShowPaymentDetails</servlet-name>
+		<servlet-class>ShowPaymentDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowPaymentDetails</servlet-name>
+		<url-pattern>/ShowPaymentDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Checkin</servlet-name>
+		<servlet-class>Checkin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Checkin</servlet-name>
+		<url-pattern>/Checkin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SubmitCheckOut</servlet-name>
+		<servlet-class>SubmitCheckOut</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubmitCheckOut</servlet-name>
+		<url-pattern>/SubmitCheckOut</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ViewBook</servlet-name>
+		<servlet-class>ViewBook</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewBook</servlet-name>
+		<url-pattern>/ViewBook</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>AddBorrower</servlet-name>
+		<servlet-class>AddBorrower</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddBorrower</servlet-name>
+		<url-pattern>/AddBorrower</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CheckOutBook</servlet-name>
+		<servlet-class>CheckOutBook</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckOutBook</servlet-name>
+		<url-pattern>/CheckOutBook</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ClickTOCheckout</servlet-name>
+		<jsp-file>/ClickTOCheckout.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClickTOCheckout</servlet-name>
+		<url-pattern>/ClickTOCheckout</url-pattern>
+	</servlet-mapping>
+
+</web-app>
